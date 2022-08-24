@@ -1,24 +1,13 @@
 class Employee {
-  constructor(firstName, lastName) {
-    this.firstName = firstName;
-    this.lastName = lastName;
+  constructor(firstname, lastname) {
+    this.firstname = firstname;
+    this.lastname = lastname;
     // Complete the code!
-  }
-  fullName(fName, lName) {
-    this.firstName = fName;
-    this.lastName = lName;
-
-    console.log(`${fName} ${lName}`);
-  }
-  email(fName, lName) {
-    this.firstName = fName;
-    this.lastName = lName;
-
-    console.log(`${fName}.${lName}@company.com`);
+    this.fullName = `${firstname} ${lastname}`;
+    this.email = `${firstname}.${lastname}@company.com`.toLowerCase();
   }
 }
 
-const employee = new Employee();
+const employee = new Employee("John", "Smith");
 
-employee.fullName("John", "Smith");
-employee.email("John", "Smith");
+console.log(employee);
