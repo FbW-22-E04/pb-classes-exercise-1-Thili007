@@ -8,6 +8,6 @@ class Employee {
   }
 }
 
-const employee = new Employee("John", "Smith");
+const emp1 = new Employee("John", "Smith");
 
-console.log(employee);
+console.log(emp1);
