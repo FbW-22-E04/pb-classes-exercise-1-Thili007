@@ -20,5 +20,5 @@ class Employee {
 
 const employee = new Employee();
 
-employee.fullName("Thilina", "Punchihewage");
-employee.email("Thilina", "Punchihewage");
+employee.fullName("John", "Smith");
+employee.email("John", "Smith");
