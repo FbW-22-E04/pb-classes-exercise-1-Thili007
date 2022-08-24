@@ -3,8 +3,8 @@ class Employee {
     this.firstname = firstname;
     this.lastname = lastname;
     // Complete the code!
-    this.fullName = `${firstname} ${lastname}`;
-    this.email = `${firstname}.${lastname}@company.com`.toLowerCase();
+    this.fullName = firstname + " " + lastname;
+    this.email = (firstname + "." + lastname + "@company.com").toLowerCase();
   }
 }
 
