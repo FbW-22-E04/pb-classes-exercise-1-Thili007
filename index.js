@@ -10,4 +10,5 @@ class Employee {
 
 const emp1 = new Employee("John", "Smith");
 
-console.log(emp1);
+console.log(emp1.fullName);
+console.log(emp1.email);
